@@ -16,12 +16,12 @@
 #define VOLTAGE_PIN   A4
 #define PIN_LED       13
 
-#define FONA_RX  9
-#define FONA_TX  8
-#define FONA_RST 4
-#define FONA_RI  7
+    #define FONA_RX  9
+    #define FONA_TX  8
+    #define FONA_RST 4
+    #define FONA_RI  7
 
-#define FONA_APN             "kolbi3g"              // APN usado por el ISP telefonico
+#define FONA_APN             "internet.ideasclaro"              // APN usado por el ISP telefonico
 
 #define MAX_TX_FAILURES      5                      // Cantidad maxima de intentos de push
 
